@@ -1,0 +1,79 @@
+.square {
+  background:plum;
+  border: 1px solid #999;
+  border-radius: 5px;
+  color: #333;
+  cursor: pointer;  
+  font-size: 24px;
+  font-weight: bold;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  width: 100px;
+  transition: background 0.3s, border 0.3s;
+}
+
+.square:hover {
+  background:yellow;
+}
+
+.square:focus {
+  outline: none;
+}
+.board-row {
+  display: flex;
+}
+.status:hover{
+  transition: cubic-bezier(0.19, 1, 0.22, 1);
+}
+.status {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight:inherit;
+  text-align: center;
+  border-style: solid;
+  background-color:whitesmoke;
+  border-radius: 30px;
+  border-color:black;
+}
+
+.board {
+  display: inline-block;
+  margin: 20px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 10px;
+  background: #eee;
+}
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-color:#00A4CCFF;
+  box-shadow: 2px 3px ;
+  padding-top: 125px;
+  padding-bottom: 265px;
+}
+button{
+  background-color:lightgreen;
+  border-style:hidden;
+  border-radius: 50px;
+ 
+}
+button:hover{
+  background-color: khaki;
+}
+
+.game-board {
+  margin: 20px;
+}
+
+.game-info {
+  margin-top: 20px;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
